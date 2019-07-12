@@ -13,7 +13,7 @@ class TodolistViewController : UITableViewController {
     
     // let us create a an array
     // this array is for cell one , cell two and cell three in my tableview
-    let itemArray = ["Meet Duale" , "Cook the food" , "Meditate"]
+    let itemArray = ["Meet Duale" , "Cook the food" , "Meditate" , "Go the Gym"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
