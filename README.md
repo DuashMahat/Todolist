@@ -12,4 +12,4 @@ An app for planning daily routines. Uses Chameleon framework , SwipeCellKit and 
 ![Alt text](/images/im4.png?raw=true "Optional Title")
 
 
-![Alt text](/images/im5.png?raw=true "Optional Title")
+![Alt text](/images/capture1.gif?raw=true "Optional Title")
