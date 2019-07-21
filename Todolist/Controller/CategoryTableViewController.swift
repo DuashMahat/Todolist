@@ -41,7 +41,7 @@ class CategoryTableViewController: SwipeTableViewController  {
 
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         var textFiled = UITextField()
-        let alert = UIAlertController(title: "Add new Category", message: "", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Add new Plan", message: "", preferredStyle: .alert)
         
         let action = UIAlertAction(title: "Add", style: .default) { (action) in
 //            let newCategory = Category(context: self.context)
@@ -59,7 +59,7 @@ class CategoryTableViewController: SwipeTableViewController  {
         alert.addAction(action_two)
         alert.addTextField { (field) in
             textFiled = field
-            textFiled.placeholder = "Add a new category"
+            textFiled.placeholder = "Add a new Plan"
         }
         // view controller to present
         

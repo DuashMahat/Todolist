@@ -125,7 +125,7 @@ class TodolistViewController : SwipeTableViewController  {
         var textField = UITextField()
         // here we need a pop once a user press the add and then list that in the uiviewtable and have a ui alert
            // this is for the alert message pop up that alerts the user of what to put
-        let alert = UIAlertController(title: "Add your new to do item", message: "", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Add your new to do sub plan", message: "", preferredStyle: .alert)
         let action = UIAlertAction(title: "Add Plan", style: .default) { (action) in
             // add code for what will happen when the user clicks add button on the "Add plan" uialer
             if let currentCategory = self.selectedCategory {  // optional binding 
@@ -152,7 +152,7 @@ class TodolistViewController : SwipeTableViewController  {
         // adding a textfield in the ui alertcontroller
         
         alert.addTextField { (alertTextField) in
-          alertTextField.placeholder = "Type your new to do plan"
+          alertTextField.placeholder = "Type your new to do sub plan"
 //            print(alertTextField.text!)
             textField = alertTextField
         }
