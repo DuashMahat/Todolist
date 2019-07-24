@@ -2,7 +2,7 @@
 # Todolist an app for planning your daily plans 
 =======
 # Todolist
-An app for planning daily routines. Uses Chameleon framework , SwipeCellKit and Realm. For London App Brewery iOS bootcamp with some added functionalities. 
+An app for planning daily routines. Uses Chameleon framework , SwipeCellKit and Realm. 
 
 ![Launch screen for the app motivated by ebbay iOS app launchsreen](/images/im1.png?raw=true "Optional Title")
 
